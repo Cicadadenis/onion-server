@@ -78,6 +78,7 @@ sed -i '/HiddenServicePort/d' $TORRC
 
 echo "HiddenServiceDir $HS" >> $TORRC
 echo "HiddenServicePort 80 127.0.0.1:8080" >> $TORRC
+echo "HiddenServicePort 8081 127.0.0.1:8081" >> $TORRC
 
 echo -e "$GREEN Сайт создан$NC"
 
